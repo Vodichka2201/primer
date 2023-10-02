@@ -136,3 +136,95 @@ tr {
     position: relative;
     top: 30%;
 }
+@media (max-width: 800px) {
+    body {
+        background: linear-gradient(70deg,#000000 , #38DAC6);
+    }
+    .bg {
+        height: auto;
+        width: auto;
+        margin: -10px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-evenly;
+    }
+    .settings {
+        position: relative;
+        top: 40px;
+        border-radius: 10%;
+        width: auto;
+        height: 539px;
+        background: linear-gradient(35deg,#3AEDD7 , #C43BD0);
+        box-shadow: inset 3px -3px 5px;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .num {
+        position: relative;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        top: 160px;
+        border-radius: 10%;
+        width: auto;
+        height: 641px;
+        background: linear-gradient(35deg,#3AEDD7 , #C43BD0);
+        box-shadow: inset 3px -3px 5px;
+    }
+    .but {
+        padding: 15px 25px;
+        font-size: 20px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background: linear-gradient(35deg,#4b4b80 , #7178fe);
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+    }
+    .but:hover {background-color: #3e8e41}
+    
+    .but:active {
+      background-color: #3e8e41;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+    .letsgo {
+        position: absolute;
+        margin-left: -6%;
+        top: 71%;
+    }
+    .butIT {
+        display: none;
+        border: 1px solid black;
+        position: absolute;
+        top: 71%;
+        margin-left: -6%;
+        text-align: center;
+        border-radius: 20px;
+        width: auto;
+        height: auto;
+        background: linear-gradient(35deg,#B0B0B1 , #585EDF);
+        font-size: 20px;
+        color: rgb(86, 255, 238);
+        z-index: 1;
+    }
+    #bg2 {
+        display: none;
+        height: auto;
+    }
+    #letsbut {
+        border: 1px solid black;
+        text-align: center;
+        border-radius: 30px;
+        width: 100px;
+        height: 100px;
+        background: linear-gradient(35deg,#B0B0B1 , #585EDF);
+        font-size: 20px;
+        color: rgb(86, 255, 238);
+    }
+}
