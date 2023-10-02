@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <button class="butIT" id="butitog" onclick="itogg()">
+        <p>Подвести итоги</p>
+    </button>
+    <div class="bg" id="bg">
+        <div class="settings">
+            <form>
+                <input class="name" id="zna1" type="text" placeholder="Количество примеров"/>
+            </form>
+    
+            <form>
+                <input class="name" id="zna2" type="text" placeholder="Сложность"/>
+            </form>
+
+            <button class="but" id="gotov" onclick="Get()">
+                Готово
+            </button>
+        </div>
+        <div class="letsgo">
+
+            <button id="letsbut" onclick="GOOO()">
+                <p>Начать</p>
+            </button>
+
+
+        </div>
+        <div class="num">
+            <div class="primer">
+                    <div class="name">
+                        <div><p id="textt1"></p></div>
+                        <div><p id="textt2"></p></div>
+                        <div><p id="textt3"></p></div>
+                    </div>
+            </div>
+    
+            <div class="otvet">
+                <form>
+                    <input class="name" id="otvett" type="text" placeholder="Ответ" />
+                </form>
+            </div>
+    
+            <div class="go">
+                <button class="but" id="next" onclick="GOOO()">
+                    Дальше
+                </button>
+                <button class="but" id="podt" onclick="podt()">
+                    Ответ
+                </button>
+            </div>
+            <div>
+                <button id="itog" onclick="podt()">
+                    <a href="itog.html" style="text-decoration: none; color: rgb(86, 255, 238);">Подвести итоги</a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="bg" id="bg2">
+        <table class="tab" id="tab">
+            <tr></tr>
+        </table>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

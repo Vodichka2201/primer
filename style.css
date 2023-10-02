@@ -1,0 +1,138 @@
+body {
+    background: linear-gradient(70deg,#82CF46 , #38DAC6);
+}
+tr {
+    color: #ffde8c;
+    font-size: 30px;
+    background: linear-gradient(70deg,#d64a13 , #ca15bb);
+}
+.bg {
+    height: 930px;
+    width: 100.93%;
+    margin: -10px;
+    background: linear-gradient(70deg,#82CF46 , #38DAC6);
+    display: flex;
+    justify-content: space-evenly;
+}
+.settings {
+    position: relative;
+    top: 200px;
+    border-radius: 10%;
+    width: 426px;
+    height: 539px;
+    background: linear-gradient(35deg,#3AEDD7 , #C43BD0);
+    box-shadow: inset 3px -3px 5px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.num {
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 160px;
+    border-radius: 10%;
+    width: 507px;
+    height: 641px;
+    background: linear-gradient(35deg,#3AEDD7 , #C43BD0);
+    box-shadow: inset 3px -3px 5px;
+}
+.name {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    position: relative;
+    text-align: center;
+    border-radius: 30px;
+    width: 300px;
+    height: 101px;
+    background: linear-gradient(35deg,#B0B0B1 , #585EDF);
+    font-size: 30px;
+    color: rgb(174, 255, 174);
+}
+.but {
+    padding: 15px 25px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(35deg,#4b4b80 , #7178fe);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.but:hover {background-color: #3e8e41}
+
+.but:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.letsgo {
+    position: absolute;
+    left: 45%;
+    top: 40%;
+}
+.tab {
+    border: solid black 2px;
+    height: auto;
+    background: linear-gradient(35deg,#3AEDD7 , #2b38f2);
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 20%;
+}
+.butIT {
+    display: none;
+    border: 1px solid black;
+    position: absolute;
+    top: 40px;
+    left: 43.3%;
+    text-align: center;
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+    background: linear-gradient(35deg,#B0B0B1 , #585EDF);
+    font-size: 20px;
+    color: rgb(86, 255, 238);
+}
+#bg2 {
+    display: none;
+}
+#letsbut {
+    border: 1px solid black;
+    position: relative;
+    text-align: center;
+    border-radius: 30px;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(35deg,#B0B0B1 , #585EDF);
+    font-size: 20px;
+    color: rgb(86, 255, 238);
+}
+#in {
+    position: relative;
+    top: 35px;
+    height: 20px;
+    text-align: center;
+}
+#itog {
+    border: 1px solid black;
+    position: relative;
+    text-align: center;
+    border-radius: 30px;
+    width: 200px;
+    height: 40px;
+    background: linear-gradient(35deg,#B0B0B1 , #585EDF);
+    font-size: 20px;
+    color: rgb(86, 255, 238);
+    display: none;
+}
+#textt {
+    position: relative;
+    top: 30%;
+}
