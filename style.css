@@ -194,6 +194,7 @@ tr {
       transform: translateY(4px);
     }
     .letsgo {
+        display: none;
         position: absolute;
         margin-left: -6%;
         top: 71%;
